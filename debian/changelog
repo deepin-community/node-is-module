@@ -1,0 +1,35 @@
+node-is-module (1.0.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-is-module: Add Multi-Arch: foreign.
+
+  [ Julien Puydt ]
+  * Fix d/watch.
+  * Install to /usr/share/nodejs and not /usr/lib/nodejs.
+  * Bump debhelper-compat to 13.
+  * Bump std-vers to 4.6.0.
+  * Declare d/rules doesn't require root.
+  * Used my @debian.org address.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 22 Aug 2021 08:09:06 +0200
+
+node-is-module (1.0.0-2) unstable; urgency=medium
+
+  * Bump std-ver to 4.1.1.
+  * Fix d/watch.
+  * Move from section web to section javascript.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 04 Nov 2017 22:39:41 +0100
+
+node-is-module (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #872355)
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Thu, 21 Sep 2017 08:37:30 +0200
