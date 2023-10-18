@@ -12,7 +12,7 @@ Vcs-Browser: https://salsa.debian.org/js-team/node-is-module
 
 Package: node-is-module
 Architecture: all
-Depends: ${misc:Depends}, nodejs
+Depends: ${misc:Depends}, nodejs:any
 Multi-Arch: foreign
 Description: Node.js code to check if a string is an ES6 module
  This simple code checks whether a string is the source of an ES6 module. It
